@@ -33,7 +33,5 @@ WebUI.sendKeys(findTestObject('password'), '1')
 
 WebUI.click(findTestObject('login button'))
 
-WebUI.delay(5)
-
 WebUI.closeBrowser()
 
